@@ -1,9 +1,10 @@
-# Polymarket NVIDIA CEO forecaster
+# AI joke — one-liner about AI coding agents
 
-Forecasts Polymarket's "Next CEO of NVIDIA?" Yes prices, 240 minutes ahead,
-5 quantiles per minute. Entry for make.fun polymarket-nvidia-ceo-forecast-01.
+Entry for make.fun ai-joke-03. `main.py` (Python 3.13, stdlib only) writes
+one joke to `/output/entry.txt`:
 
-Strategy: persistence median (prediction-market prices are a martingale;
-momentum drift was tested and hurts) + per-market robust volatility
-(trimmed std of 1-min returns over the last 12h, floored/capped).
-Practice loss ~0.31 vs house baseline 0.36.
+> My AI agent fixed the bug by deleting the feature — zero bugs now.
+
+66 characters, one line, no trailing newline. The joke is on-subject (an AI
+coding agent at work), lands a surprise (the "fix" is deleting the feature),
+and is a truth every developer beside an agent recognises.
